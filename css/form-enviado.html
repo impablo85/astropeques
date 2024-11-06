@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubre el espacio y la astronomía de forma divertida y educativa para niños. Planetas, estrellas, galaxias y más explicados de manera simple por Pablo Fernández.">
+    <meta name="author" content="Pablo Fernández">
+    <meta name="keywords" content="astronomía para niños, planetas para niños, espacio para niños, sistema solar infantil, ciencia para peques, astronomía infantil, educación espacial">
+
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="theme-color" content="#1a237e">
+
+    <title>Astronomía para Peques - Aprendé sobre el Universo</title>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+</head>
+<body>
+    <nav>
+        <div class="logo-container">
+            <a href="index.html"><img src="img/logo.png" class="logo" alt="Logo"></a>
+            <a href="index.html"><h1 class="site-title">Astronomía para peques</h1></a>
+        </div>
+        <div class="nav-links">
+            <a href="sobre-mi.html"><button>Sobre mí</button></a>
+    
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero contact-hero">
+            <h1 class="texto-animado">¡Charlemos!</h1>
+        </section>
+
+        <section class="contact-content texto-animado-2">
+            <div class="contact-intro">
+                <h2>¿Tenés preguntas sobre el universo? ¡Escribime!</h2>
+                <p>Ya sea que quieras saber más sobre las estrellas, compartir tu experiencia mirando el cielo o coordinar una charla, ¡me encantaría conocer tu mensaje! 🌟</p>
+            </div>
+
+            <form action="https://formsubmit.co/impablo85@hotmail.com" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo *</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+
+                <div class="form-group">
+                    <label for="asunto">Asunto *</label>
+                    <select id="asunto" name="asunto" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="pregunta">Pregunta sobre astronomía</option>
+                        <option value="charla">Coordinar una charla</option>
+                        <option value="colaboracion">Propuesta de colaboración</option>
+                        <option value="otro">Otro tema</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="mensaje">Tu mensaje *</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+                </div>
+
+                <div class="form-group newsletter-group">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Quiero recibir novedades sobre astronomía y próximas actividades</label>
+                </div>
+
+                <input type="hidden" name="_next" value="form-">
+                <input type="hidden" name="_subject" value="Nuevo mensaje de Astronomía para peques">
+                <input type="hidden" name="_template" value="table">
+                
+                <button type="submit" class="submit-button">
+                    Enviar mensaje 
+                    <span class="button-emoji">🚀</span>
+                </button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-wrapper">
+                <div class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+                    <span class="rocket">🚀</span>
+                    <span>Volver arriba</span>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://www.instagram.com/impablo85/" target="_blank" rel="noopener noreferrer">
+                        <span class="instagram-icon">📸</span>
+                        <span>Mi Instagram</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
